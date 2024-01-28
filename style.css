@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: 300ms;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #282a35;
+}
+a {
+  padding: 10px 15px;
+  background-color: #282a35;
+  color: snow;
+}
+a:hover {
+  background-color: black;
+  color: snow;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rightSide,
+.leftSide {
+  display: flex;
+  list-style: none;
+}
+.leftSide li {
+  padding: 15px 25px;
+  position: relative;
+}
+.leftSide li:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+.leftSide span {
+  border: 4px solid #04aa6d;
+  border-radius: 50px;
+  margin: 10px;
+}
+span input {
+  border-radius: 50px;
+  border: none;
+  text-shadow: none;
+  margin: 5px;
+  outline: none;
+}
+.dayNight {
+  margin: 20px 5px;
+}
+.rightSide li {
+  margin: 2px 4px;
+  padding: 8px 10px;
+  border-radius: 50px;
+}
+.rightSide li:hover {
+  background-color: #f1f1f1;
+}
+.rightSide span {
+  display: flex;
+  background-color: #04aa6d69;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+.rightSide span #a {
+  background-color: #04aa6d;
+  text-decoration: none;
+  border-radius: 50px;
+}
+.rightSide span #b {
+  background-color: transparent;
+  text-decoration: none;
+  color: black;
+  border-radius: 50px;
+  text-align: end;
+}
